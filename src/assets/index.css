@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    ul {
-        list-style: revert;
+@layer components {
+    ul li::marker {
+        @apply text-react-blue-light;
     }
+}
+
+ul li::marker {
+    font-size: 1.25rem;
+}
+
+ul li:not(:last-of-type) {
+    padding-bottom: 1.25rem;
 }
