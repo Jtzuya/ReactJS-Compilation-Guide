@@ -19,3 +19,35 @@
  * theRootId.appendChild(childHeading)
  */
 
+////////////////////////////////////////////////////////////////////////////////////////////////
+// const page = (
+// 	<div>
+// 		<h1 className="header">This is JSX</h1>
+// 		<p>This is a p tag line</p>
+// 	</div>
+// )
+
+/**
+ * Challenge 2: - Create a navbar in JSX
+ * 
+ * ~ Use the semantic 'nav' element as the parent wrapper
+ * ~ Have h1 element with the brand name of your 'website'
+ * ~ Insert an unordered list for the other nav elements
+ * 		- Inside the 'ul', have 3 'li' elements for 'Pricing', 'About', and 'Contact'
+ * Note: Do not worry about the styling yet, because I'd like to see plain HTML
+ */
+
+/**
+ * Challenge 2 Answer
+ *	const navbar = (
+ *		<nav>
+ *			<h1 className="text-8xl">Jtzuya</h1>
+ *			<ul>
+ *				<li>Pricing</li>
+ *				<li>About</li>
+ *				<li>Contact</li>
+ *			</ul>
+ *		</nav>
+ *	)
+ *	ReactDOM.render(navbar, document.getElementById('root'))
+ */
