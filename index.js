@@ -148,10 +148,13 @@ const MainContent = () => {
 	)
 }
 
+// Note: JSX, only returning a single parent Element
+// For this instance, the 'div' is out parent Element. Else, it'll return an error message
+
 ReactDOM.render(
 	<div>
 		<Navbar />
 		<MainContent />
-	</div>
-	, document.getElementById('root')
+	</div>, 
+	document.getElementById('root')
 )
