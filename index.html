@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+	
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- 
+	"Using VIM as text editor, and VSCODE to check the output"
+	All Html Tag will be rendered using REACT
+	-->	
+	<div id="root" class="bg-neutral-400"></div>
+	<script src="index.js" type="text/babel"></script>
+    <script>
+        tailwind.config = {
+            content: ['*.{html,js}']
+        }
+    </script>
+</body>
+</html>
