@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/solo-proj-1/static/css/main.f8be9533.css",
+    "main.js": "/solo-proj-1/static/js/main.f57eb7d3.js",
+    "index.html": "/solo-proj-1/index.html",
+    "main.f8be9533.css.map": "/solo-proj-1/static/css/main.f8be9533.css.map",
+    "main.f57eb7d3.js.map": "/solo-proj-1/static/js/main.f57eb7d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8be9533.css",
+    "static/js/main.f57eb7d3.js"
+  ]
+}
