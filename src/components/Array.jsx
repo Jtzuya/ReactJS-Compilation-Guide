@@ -5,6 +5,25 @@ const Array = () => {
 
     function stringAdder() {
 
+        // Not best practice
+        /**
+         * 
+         *  setCount(count + 1)
+         *  
+        */
+
+        // Best Practice (code below)
+        /**
+         * 
+         *  prevCount param is the old/previous value of our state. If we refer current state which is set to '0' then our prevCount param is equal to '0'
+         *  but if we toggle run our function, then it triggers and updates our state, then the updated state is now our prevCount 
+         * 
+         *  setCount(prevCount => {
+         *      return prevCount + 1
+         *  })
+         * 
+        */
+
         // Using old way of looping
         setStrArr(prevStrArr => {
             let newSetOfArr = []
