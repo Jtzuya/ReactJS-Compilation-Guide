@@ -20,10 +20,13 @@ module.exports = {
       'card-dark': '#161619',
       'highlight': '#F3BF99',
       'white': '#ffffff',
-      'blue': 'blue'
+      'blue': 'blue',
+      'eco': '#0db14b',
+      'palegreen': 'palegreen'
     },
     fontFamily: {
-      'body': ['Inter', 'sans-serif']
+      'body': ['Inter', 'sans-serif'],
+      'logo': ['"Montserrat"', 'monospace']
     },
     minHeight: {
       'custom': '459px'
