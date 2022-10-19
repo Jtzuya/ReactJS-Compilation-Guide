@@ -22,7 +22,8 @@ module.exports = {
       'white': '#ffffff',
       'blue': 'blue',
       'eco': '#0db14b',
-      'palegreen': 'palegreen'
+      'palegreen': 'palegreen',
+      'placeholder': 'rgb(0 0 0 / 5%)'
     },
     fontFamily: {
       'body': ['Inter', 'sans-serif'],
